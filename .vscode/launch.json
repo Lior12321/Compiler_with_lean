@@ -1,15 +1,14 @@
+// This file is used to configure the debugger in Visual Studio Code.
+// It is used to run the compiler in debug mode.
 {
     "version": "0.2.0",
     "configurations": [
         {
             "name": "Run Lean",
-            "type": "shell",
+            "type": "node",
             "request": "launch",
-            "command": "lake",
-            "args": [
-                "exe",
-                "Main"
-            ],
+            "runtimeExecutable": "lake",
+            "args": ["exe", "Main"],
             "console": "integratedTerminal"
         }
     ]
