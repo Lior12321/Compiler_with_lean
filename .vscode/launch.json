@@ -3,13 +3,10 @@
     "configurations": [
         {
             "name": "Run Lean",
-            "type": "shell",
+            "type": "node",
             "request": "launch",
-            "command": "lake",
-            "args": [
-                "exe",
-                "Main"
-            ],
+            "runtimeExecutable": "lake",
+            "args": ["exe", "Main"],
             "console": "integratedTerminal"
         }
     ]
