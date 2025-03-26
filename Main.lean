@@ -8,4 +8,4 @@ def main : IO Unit :=
     let message: String:= "testing"
     IO.println "Running program..."
     IO.println s!"Message: {message} 1+2={z}"
-    IO.println "Hello, World!"
+    IO.println "Hello, World!!"
